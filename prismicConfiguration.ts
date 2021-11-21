@@ -1,5 +1,5 @@
 // -- Prismic Repo Name
-export const repoName = 'ts-next-prismic-tailwind';
+export const repoName = process.env.PRISMIC_REPO_NAME;
 
 // -- Prismic API endpoint
 // Determines which repository to query and fetch data from
